@@ -1,0 +1,109 @@
+Group No: 19 
+Mentor: Ms. Rini Saren
+
+Topic: Sanctions Screening of Payments Transactions 
+
+Group Details : 
+1. Vedika Ghei          :vedika.ghei@cumminscollege.in
+2. Rutuja Bhamare       :rutuja.bhamare@cumminscollege.in
+3. Shalmalee Shenolikar :shalmalee.shenolikar@cumminscollege.in
+4. Chitra Dhamale       :chitra.dhamale@cumminscollege.in
+5. Sarita Mhantati      :sarita.mhantati@cumminscollege.in
+
+
+TABLE OF CONTENTS 
+
+1. Introduction--------------------------------------------------------------------------3
+
+1.1 Overview of the project--------------------------------------------------------3
+1.2 Project Objectives---------------------------------------------------------------3
+1.3 Project Scope--------------------------------------------------------------------3
+1.4Assignment of roles and responsibilities-------------------------------------4
+1.5 Project Schedule-----------------------------------------------------------------4
+
+2. Requirements Specifications-------------------------------------------------------5
+2.1 Requirements---------------------------------------------------------------------5
+2.2 Analysis---------------------------------------------------------------------------5
+
+3. References---------------------------------------------------------------------------6
+
+
+
+1.INTRODUCTION 
+
+1.1 Overview of the project 
+
+Sanction screening is a control deployed by financial institutions to detect, prevent and manage sanctions risk. It is a software to assist with the identification of sanctioned individuals and organizations as well as illegal activity. Thus this project is a software which maintains a transaction management system. The bank maintains a database of the users includes blacklisted users. The software basically checks the payer and the payee of a transaction, thus sanctioning or rejecting the respective transaction.
+
+1.2 Project Objectives 
+
+Build an application which performs sanctions screening of payments transactions.
+The interface, constraints and features of the system are given in this documentation. 
+
+1.3 Project Scope 
+
+This system is a software which checks valid users and sanctions payments of transactions. 
+It is designed to provide security to the users for transfer of payments. Payer and payee may have invalid names, transactions may have wrong dates, wrong amounts, etc. To avoid all this, a secure software is deployed which uploads details, validates a transaction to pass or fail, screens a transaction to pass or fail.
+
+The software will facilitate the bank employee to input transaction data from a file. The transaction details can be stored in the valid keyword format in a database. A UI is provided to show all transactions, all valid transactions and the screen tests for a particular transaction. The system contains a relational database that stores the validated transaction details uploaded by the users. 
+
+
+1.4 Assignment of roles and responsibilities
+ 
+a)Front end 
+• UI Design - Sarita Mhantati, Chitra Dhamale
+• Connectivity - Shalmalee Shenolikar
+
+b)Middle-ware 
+• Fetching and retrieving user information - Vedika Ghei
+• Validating and sanctioning payments transactions - Vedika Ghei
+
+c)Back-end 
+• Databases - Rutuja Bhamare
+
+d)Documentation - Shalmalee Shenolikar
+
+e)Presentation - Sarita Mhantati, Shalmalee Shenolikar
+
+
+1.5 Project Schedule 
+
+Time period for the given project is seven weeks. Each part is divided into different phases. 
+
+
+
+2. REQUIREMENTS SPECIFICATIONS 
+
+2.1 Requirements 
+
+Technologies used are JSP, Tomcat server, MySQL Database, CSS and HTML. 
+MySQL is used to store transactions, transaction ID, amount, date, etc.
+Tomcat server with JSP is used for validation and sanctioning the transactions and displaying the required information(UI).
+
+a)Software Required 
+• Framework: Eclipse EE
+• Database: MySQL
+• Apache Tomcat Server 
+
+b) Technologies Used  
+* CSS 
+* HTML 
+* JAVA 
+* Java Servlet
+
+
+2.2 Analysis 
+
+Sanctions Screening of Payments Transactions
+a) User can upload transaction details file.
+b) Screen provides status after validation and screening of transactions which is case insensitive.
+c) User can view all transactions, valid transactions and sanctioned transactions.
+d) User cannot change any fields on screen.
+
+
+3. REFERENCES 
+
+•  https://www.w3schools.com/
+•  https://www.youtube.com/watch?v=OC9EBXGLL0w
+
+
